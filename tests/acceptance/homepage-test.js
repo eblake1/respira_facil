@@ -7,7 +7,7 @@ module('Acceptance | homepage', function(hooks) {
 
   test('Should link to symptoms page.', async function (assert){});
 
-  test('Should link to public health information page.'), async function (assert){});
+  test('Should link to public health information page.', async function (assert){});
 
   test('Should link to about page.', async function (assert){});
 
