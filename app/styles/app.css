@@ -1,3 +1,19 @@
 body {
   background-color: #d9eef9;
 }
+
+.navbar {
+  align-content: center;
+}
+
+.main_diagnose_button {
+  margin: auto;
+  padding: 20px;
+  position: static;
+}
+
+h1 {
+  color:Tomato;
+  background-color: green;
+  text-align: center;
+}
