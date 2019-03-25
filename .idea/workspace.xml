@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6cfa76c-97e5-423d-96e2-34e639210a27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/symptoms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/symptoms.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="c6cfa76c-97e5-423d-96e2-34e639210a27" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +23,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
+
+            <state relative-caret-position="2824">
+              <caret line="427" column="10" lean-forward="true" selection-start-line="427" selection-start-column="10" selection-end-line="427" selection-end-column="10" />
+
             </state>
           </provider>
         </entry>
@@ -115,9 +112,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="40" />
-    <option name="width" value="975" />
+    <option name="x" value="140" />
+    <option name="y" value="29" />
+    <option name="width" value="1203" />
     <option name="height" value="782" />
   </component>
   <component name="ProjectView">
@@ -273,11 +270,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4703000" />
+    <option name="totallyTimeSpent" value="4767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="40" width="975" height="782" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.244373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -367,8 +363,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
+
+        <state relative-caret-position="2824">
+          <caret line="427" column="10" lean-forward="true" selection-start-line="427" selection-start-column="10" selection-end-line="427" selection-end-column="10" />
+
         </state>
       </provider>
     </entry>
