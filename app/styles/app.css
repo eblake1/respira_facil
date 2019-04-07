@@ -1,14 +1,220 @@
-body {
-  background-color: #d9eef9;
+/*styles for all pages */
+
+header {
+  padding: 10px;
+  background-color: rgba(30,144,255,.3);
+  text-align: center;
+  width: 900px;
+  border: 2px solid rgba(30,144,255,.5);
+}
+
+header img {
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+article {
+  background-color: rgba(211,211,211,0.25);
+  border: 2px solid rgba(30,144,255,.5);
+  width: 900px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .navbar {
   align-content: center;
+  font-size: 22px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  list-style-type: none;
+  margin: 0;
+  width: 900px;
+  border: 2px solid rgba(30,144,255,.5);
 }
 
-.main_diagnose_button {
-  margin: auto;
-  padding: 20px;
-  position: static;
+.navbar a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 205px;
+  text-align: center;
+  background: rgba(211,211,211,0.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
+.navbar a:hover { /* Change the link color on hover */
+  background-color: rgba(30,144,255,.3);
+  color: white;
+}
+
+
+
+
+
+/*styles for diagnose page*/
+#main_diagnose_button {
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  left: 200px;
+  margin-top: 10px;
+  width: 200px;
+  height:80px;
+  font-size: 38px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: white;
+  background-color: darkgray;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+#main_diagnose_button:hover { /* Change the link color on hover */
+  background-color: rgba(30,144,255,.3);
+}
+
+article#button {
+  width: 765px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 625px;
+}
+
+article#symptoms {
+  height: 800px;
+}
+
+article#symptoms p {
+  font-family: "Palatino Linotype";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+article#symptoms h2 {
+  margin-top: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 15px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+  text-align: left;
+}
+
+
+
+
+/*styles for about page*/
+article#about {
+  height: 700px;
+}
+
+article p#needstatement {
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+article p#needstatement h4 {
+  font-family: Palatino, 'Palatino Linotype', serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+article p#needstatement h6 {
+  font-family: "Palatino Linotype";
+  font-size: 16px;
+  margin: 10px;
+}
+
+/*styles for public health page */
+article#ph {
+  height: 900px;
+}
+
+article h2 {
+  margin-top: 15px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 10px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+}
+
+article p#whatispneumonia{
+  font-family: "Palatino Linotype";
+  font-size: 16px;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 10px;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+article ol#prevention {
+  font-family: "Palatino Linotype";
+  list-style-position:inside;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 0px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+article ol#prevention li{
+  margin-left: 10px;
+}
+
+article ul {
+  font-size: 16px;
+  font-family: "Palatino Linotype";
+}
+
+
+
+/*styles for contact us page*/
+
+article#contact {
+  height: 700px;
+}
+
+article h5 {
+  margin-top: 15px;
+  font-family: "Palatino Linotype";
+  margin-left: 15px;
+}
+
+article h3 {
+  margin-top: 15px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 10px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+}
+
+article p#contact {
+  font-family: "Palatino Linotype";
+  font-size: 16px;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 5px;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+
+/*styles for age assessment page */
+article#age h2 {
+  margin-top: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 15px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+  text-align: left;
+}
+
+article#button2 {
+  width: 765px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 700px;
+  padding: 30px;
+  font-size: 20px;
+  font-family: "Palatino Linotype";
+}
