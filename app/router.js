@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('contact');
   this.route('phinfo');
   this.route('age');
+  this.route('patient');
 });
 
 export default Router;
