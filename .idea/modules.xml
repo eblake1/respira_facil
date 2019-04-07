@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/respira_facil.iml" filepath="$PROJECT_DIR$/respira_facil.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/Team Design.iml" filepath="$PROJECT_DIR$/.idea/Team Design.iml" />
->>>>>>> 2c9933cd932cce9f65696023b301528cb51f96cc
+      <module fileurl="file://$PROJECT_DIR$/.idea/respira-facil.iml" filepath="$PROJECT_DIR$/.idea/respira-facil.iml" />
     </modules>
   </component>
 </project>
