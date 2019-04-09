@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e229f161-67ed-4384-8266-7a31878744b0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/age.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/age.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/components/age-component.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/components/age-component.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/phinfo.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/phinfo.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/symptoms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/symptoms.hbs" afterDir="false" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
       <change beforePath="$PROJECT_DIR$/app/templates/vital-signs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/vital-signs.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,17 +24,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/score.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/initial-symptoms.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/components/age-component.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -30,11 +52,18 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/app/templates/phinfo.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/templates/age.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -48,18 +77,32 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2973" />
           </provider>
+=======
+        <entry file="file://$PROJECT_DIR$/app/templates/components/age-component.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/age-component.hbs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="120">
               <caret line="8" column="106" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
+=======
+            <state relative-caret-position="-33">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -67,11 +110,18 @@
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="9" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/templates/initial-symptoms.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -86,23 +136,44 @@
                 <element signature="e#1225#1231#0#HTML" expanded="true" />
                 <element signature="e#1402#1408#0#HTML" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/app/templates/age.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/vital-signs.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/vital-signs.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/routes/age.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+=======
+        <entry file="file://$PROJECT_DIR$/app/components/score.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -124,15 +195,26 @@
         <option value="$PROJECT_DIR$/app/templates/patient.hbs" />
         <option value="$PROJECT_DIR$/app/components/score.js" />
         <option value="$PROJECT_DIR$/app/templates/result.hbs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" />
+=======
+        <option value="$PROJECT_DIR$/app/templates/age.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/components/age-component.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/contact.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/symptoms.hbs" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
         <option value="$PROJECT_DIR$/app/templates/vital-signs.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/about.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/phinfo.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/initial-symptoms.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="26" />
-    <option name="width" value="1372" />
+    <option name="x" value="36" />
+    <option name="y" value="23" />
+    <option name="width" value="1590" />
     <option name="height" value="849" />
   </component>
   <component name="ProjectView">
@@ -181,7 +263,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554850096196" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554849146151" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,11 +296,12 @@
       <updated>1553701125363</updated>
       <workItem from="1553701127206" duration="538000" />
       <workItem from="1553960698514" duration="4189000" />
-      <workItem from="1554784504207" duration="5499000" />
+      <workItem from="1554784504207" duration="8633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="10638000" />
   </component>
   <component name="ToolWindowManager">
@@ -222,6 +309,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24685383" />
+=======
+    <option name="totallyTimeSpent" value="13360000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="23" width="1590" height="849" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19315246" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +334,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32947975" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7080581" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.21804512" />
@@ -305,9 +405,6 @@
     <entry file="file://$PROJECT_DIR$/app/routes/initial-symptoms.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -318,40 +415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/age.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/age-component.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="106" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/question.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/question.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/symptoms.hbs">
+    <entry file="file://$PROJECT_DIR$/app/templates/result.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="30">
+<<<<<<< HEAD
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="34" />
+=======
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
         </state>
       </provider>
     </entry>
@@ -364,21 +441,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/score.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="120">
+          <caret line="8" column="106" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
+=======
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/result.hbs">
+    <entry file="file://$PROJECT_DIR$/app/routes/about.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/age.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/vital-signs.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/components/score.js">
+=======
+    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/age-component.hbs">
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/symptoms.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/templates/initial-symptoms.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -400,6 +532,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/templates/phinfo.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/initial-symptoms.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+>>>>>>> d968dacacac3fc3adb154dd4165e20df061391c0
         </state>
       </provider>
     </entry>
