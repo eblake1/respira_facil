@@ -1,6 +1,8 @@
 <article id="vital-signs">
   <div class="container" >
     <h2>Patient Vital Signs</h2>
+
+
     <h5>What's your heart rate?</h5>
       {{input name="Heart rate" placeholder="Heart rate" value=heartRate}}
     <h5>What's your respiratory rate?</h5>
@@ -21,11 +23,9 @@
       <input type="radio" name="cough" value="yes"> Yes &nbsp;
       <input type="radio" name="cough" value="no"> No
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    {{#link-to "result" class="btn btn-secondary btn" id="button4"}}
+        View Result
+    {{/link-to}}
 
   </div>
 </article>
