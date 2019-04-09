@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('age');
   this.route('patient');
   this.route('initial-symptoms');
+  this.route('vital-signs');
 });
 
 export default Router;
