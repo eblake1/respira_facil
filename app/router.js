@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('phinfo');
   this.route('age');
   this.route('patient');
+  this.route('initial-symptoms');
 });
 
 export default Router;
