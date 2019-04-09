@@ -2,29 +2,22 @@
   <div class="container" >
     <h2>Patient Vital Signs</h2>
     <h5>What's your heart rate?</h5>
-      <input type="radio" name="cough" value="yes"> Yes &nbsp;
-      <input type="radio" name="cough" value="no"> No
+      {{input name="Heart rate" placeholder="Heart rate" value=heartRate}}
     <h5>What's your respiratory rate?</h5>
-      <input type="radio" name="cough" value="yes"> Yes &nbsp;
-      <input type="radio" name="cough" value="no"> No
+      {{input name="Resp rate" placeholder="Respiratory rate" value=respRate}}
     <h5>What's your oxygen saturation?</h5>
-      <input type="radio" name="cough" value="yes"> Yes &nbsp;
-      <input type="radio" name="cough" value="no"> No
+      {{input name="Oxi Sat" placeholder="Oxygen saturation" value=oxiSat}}
     <h5>What's your blood pressure?</h5>
-      <input type="radio" name="cough" value="yes"> Yes &nbsp;
-      <input type="radio" name="cough" value="no"> No
+      {{input name="Blood pressure" placeholder="Blood pressure" value=bloodPressure}}
     <h5>What's your body temperature?</h5>
-      <input type="radio" name="cough" value="activity"> During activity &nbsp;
-      <input type="radio" name="cough" value="rest"> At rest
-      <input type="radio" name="cough" value="none"> No
-    <h5>Confusion?</h5>
-    <p>(or "haven't been acting right")</p>
+      {{input name="Body temperature" placeholder="Body temperature" value=temperature}}
+    <h5>Are you taking medication?</h5>
       <input type="radio" name="cough" value="yes"> Yes &nbsp;
       <input type="radio" name="cough" value="no"> No
-    <h5>Has the patient had a pneumonia shot in the last 5 months?</h5>
+    <h5>Do you have asthma?</h5>
       <input type="radio" name="cough" value="yes"> Yes &nbsp;
       <input type="radio" name="cough" value="no"> No
-    <h5>Has the patient had the flu in the past month?</h5>
+    <h5>Do you have any kinds of aches or pains?</h5>
       <input type="radio" name="cough" value="yes"> Yes &nbsp;
       <input type="radio" name="cough" value="no"> No
     <br>
