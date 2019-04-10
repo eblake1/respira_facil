@@ -5,7 +5,7 @@ export default Ember.Component.extend({
   count: 0,
   actions: {
     tick: function () {
-      this.incrementProperty('count');
+      this.set('count', parseInt(this.get('count'), 10) + 1);
       console.log(this.get('count'))
     },
     setup: function () {

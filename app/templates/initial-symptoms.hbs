@@ -3,41 +3,42 @@
     <h2>Patient Symptoms</h2>
 
     <h5>Cough?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" id="chkYes" name="cough" value="yes" onclick={{action "addOne"}}/>Yes &nbsp;
+    <input type="radio" id="chkNo" name="cough" value="no"> No
 
     <h5>Chest pain?</h5>
-    <p>(explanation)</p>
-    <input type="radio" name="chest" value="yes"> Yes &nbsp;
-    <input type="radio" name="chest" value="no"> No
+    <input type="radio" id="chkYes" name="chest" value="yes" onclick={{action "addOne"}}> Yes &nbsp;
+    <input type="radio" id="chkNo" name="chest" value="no"> No
 
     <h5>Sputum production?</h5>
-    <input type="radio" name="sputum" value="yes"> Yes &nbsp;
-    <input type="radio" name="sputum" value="no"> No
+    <p>(Coughing up and spitting out material)</p>
+    <input type="radio" id="chkYes" name="sputum" value="yes" onclick={{action "addOne"}}> Yes &nbsp;
+    <input type="radio" id="chkNo" name="sputum" value="no"> No
 
     <h5>Chills?</h5>
-    <input type="radio" name="chills" value="yes"> Yes &nbsp;
-    <input type="radio" name="chills" value="no"> No
+    <input type="radio" id="chkYes" name="chills" value="yes" onclick={{action "addOneandHalf"}}> Yes &nbsp;
+    <input type="radio" id="chkNo" name="chills" value="no"> No
 
     <h5>Shortness of breath?</h5>
-    <input type="radio" name="breath" value="activity"> During activity &nbsp;
-    <input type="radio" name="breath" value="rest"> At rest
+    <input type="radio" name="breath" value="activity" onclick={{action "addOne"}}> During activity &nbsp;
+    <input type="radio" name="breath" value="rest" onclick={{action "addTwo"}}> At rest
     <input type="radio" name="breath" value="none"> No
 
     <h5>Confusion?</h5>
     <p>(or "haven't been acting right")</p>
-    <input type="radio" name="confusion" value="yes"> Yes &nbsp;
-    <input type="radio" name="confusion" value="no"> No
+    <input type="radio" id="chkYes" name="confusion" value="yes" onclick={{action "addTwo"}}> Yes &nbsp;
+    <input type="radio" id="chkNo" name="confusion" value="no"> No
 
     <h5>Has the patient had a pneumonia shot in the last 5 months?</h5>
-    <input type="radio" name="shots" value="yes"> Yes &nbsp;
-    <input type="radio" name="shots" value="no"> No
+    <input type="radio" id="chkYes" name="shots" value="yes" onclick={{action "minusOne"}}> Yes &nbsp;
+    <input type="radio" id="chkNo" name="shots" value="no"> No
 
     <h5>Has the patient had the flu in the past month?</h5>
-      <input type="radio" name="cough" value="yes"> Yes &nbsp;
+      <input type="radio" name="cough" value="yes" onclick={{action "addOne"}}> Yes &nbsp;
       <input type="radio" name="cough" value="no"> No
     <br>
     <br>
+
     {{#link-to "vital-signs" class="btn btn-secondary btn" id="button3"}}
         Continue
     {{/link-to}}
