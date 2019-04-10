@@ -1,11 +1,13 @@
 
-<select onchange={{action "setSelection" value="target.value"}}>
+<div class="select_join" style="margin-left:15px">
+<select onchange={{action "setSelection" value="target.value" }} id="age_cat" >
   <option disabled selected>Age?</option>
   <option value="infant">0-1</option>
   <option value="young children">2-9</option>
   <option value="adults">10-64</option>
   <option value="elderly">65+</option>
 </select>
-{{#link-to "initial-symptoms"}}<button {{action "submit"}} {{action "setup"}} >Submit</button>{{/link-to}}
+{{#link-to "initial-symptoms"}}<button {{action "submit"}} {{action "setup"}} id="select_button">Submit</button>{{/link-to }}
+</div>
 
 
