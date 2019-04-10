@@ -6,7 +6,7 @@ export default Route.extend({
       age: null,
       initial_symptoms: null,
       vital_signs: null,
-      additional_conditions: null,
+      count: Ember.computed()
     }]
   }
 });

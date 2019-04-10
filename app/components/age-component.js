@@ -20,13 +20,6 @@ export default Ember.Component.extend({
       this.set('count', parseInt(this.get('count'), 10) + 1);
       console.log(this.get('count'))
     },
-    saveAge: function () {
-      let store = this.get('store');
-      store.createRecord('patient', {age: selectedOption,
-        initial_symptoms: null,
-        vital_signs: null,
-        additional_conditions: null,});
-    },
     submit: function(){
       console.log(this.get('selectedOption'))
       // code to save or sendAction
