@@ -50,7 +50,6 @@ article {
 
 
 
-
 /*styles for diagnose page*/
 #main_diagnose_button {
   padding: 10px;
@@ -198,7 +197,68 @@ article p#contact {
 }
 
 
-/*styles for age assessment page */
+
+
+
+/*styles for age page*/
+#select_button {
+  position: relative;
+  margin-top: 10px;
+  width: 110px;
+  height:40px;
+  font-size: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: white;
+  background-color: darkgray;
+  border: 2px solid gray;
+  margin-left: 30px;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+#select_button:hover { /* Change the link color on hover */
+  background-color: rgba(30,144,255,.3);
+}
+
+/*figure out how to change font on this button*/
+#age_cat {
+  width: 125px;
+  height: 35px;
+  position: center;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-left: 40px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+  box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+}
+
+.select_join select {
+  background: transparent;
+  width: 120px;
+  font-size:20px;
+  padding-left: 15px;
+  color:black;
+  border: 0;
+  height: 28px;
+  font-family: "Palatino Linotype";
+}
+
+.select_join select:focus {
+  outline: none;
+}
+
+article#button2 {
+  width: 765px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 450px;
+}
+
+article#age {
+  height: 800px;
+}
+
 article#age h2 {
   margin-top: 25px;
   font-family: Palatino, 'Palatino Linotype', serif;
@@ -209,12 +269,190 @@ article#age h2 {
   text-align: left;
 }
 
-article#button2 {
+
+
+
+
+
+
+
+
+
+
+/*styles for patient symptoms page*/
+
+article#initial-symptoms {
+  height: 950px;
+}
+
+article#initial-symptoms h2 {
+  margin-top: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 15px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+  text-align: left;
+}
+
+article#initial_symptoms_q {
   width: 765px;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
-  height: 700px;
-  padding: 30px;
-  font-size: 20px;
+  height: 800px;
+}
+
+article#initial_symptoms_q h5 {
+  font-family: Palatino, 'Palatino Linotype', serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+article#initial_symptoms_q input[type="radio"] {
+  border: 0px;
+  height: 1em;
+  margin-left: 30px;
+
+}
+
+article#initial_symptoms_q label {
   font-family: "Palatino Linotype";
+  font-size: 17px;
+  letter-spacing: .5px;
+}
+
+#button3 {
+  position: relative;
+  margin-top: 10px;
+  width: 120px;
+  height:45px;
+  font-size: 22px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: white;
+  background-color: darkgray;
+  border: 2px solid gray;
+  margin-left: 30px;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+#button3:hover { /* Change the link color on hover */
+  background-color: rgba(30,144,255,.3);
+}
+
+
+
+
+
+
+
+
+/*styles for vital signs page*/
+
+article#vital-signs {
+  height: 1100px;
+}
+
+article#vital-signs h2 {
+  margin-top: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 15px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+  text-align: left;
+}
+
+article#vital_signs_q {
+  width: 765px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 970px;
+}
+
+article#vital_signs_q input[type="radio"] {
+  border: 0px;
+  height: 1em;
+  margin-left: 30px;
+  margin-right: -100px;
+}
+
+article#vital_signs_q h5 {
+  font-family: Palatino, 'Palatino Linotype', serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+article#vital_signs_q label {
+  font-family: "Palatino Linotype";
+  font-size: 17px;
+  letter-spacing: .5px;
+}
+
+article#vital_signs_q input {
+  margin-left: 18px;
+  font-family: "Palatino Linotype";
+  width: 120px;
+  font-size: 15px;
+}
+
+article#vital_signs_q span {
+  font-family: "Palatino Linotype";
+  letter-spacing: .5px;
+  font-size: 15px;
+}
+
+#button4 {
+  position: relative;
+  margin-top: 10px;
+  width: 150px;
+  height:45px;
+  font-size: 22px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: white;
+  background-color: darkgray;
+  border: 2px solid gray;
+  margin-left: 30px;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+#button4:hover { /* Change the link color on hover */
+  background-color: rgba(30,144,255,.3);
+}
+
+
+
+
+
+
+
+
+
+
+/*styles for final decision page*/
+article#result1 {
+  width: 765px;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 450px;
+}
+
+article#result {
+  height: 800px;
+}
+
+article#result h2 {
+  margin-top: 25px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  border: 2px solid rgba(30,144,255,.5);
+  padding: 15px;
+  background-color: rgba(30,144,255,.15);
+  border-radius: 0.1em 0.1em 0.1em 0.1em;
+  text-align: left;
+}
+
+article#result h5 {
+  font-family: "Palatino Linotype";
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
