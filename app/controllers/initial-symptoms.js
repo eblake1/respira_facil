@@ -26,8 +26,9 @@ actions: {
       this.set('count', 0);
       console.log(this.get('count'))
     },
-    displayInitial: function () {
-      this.toggleProperty('count');
+    displayScore: function () {
+      console.log(this.get('count'))
+      return this.get('count');
     }
 
   }
