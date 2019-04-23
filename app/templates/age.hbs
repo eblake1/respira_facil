@@ -5,10 +5,17 @@
     <h2>How old is the patient?</h2>
 
     <article id="button2">
-      {{age-component id="age_button"}}
+      <select onchange={{action "setSelection" value="target.value"}}>
+
+        <option disabled selected>Age?</option>
+        <option value="infant">0-1</option>
+        <option value="young children">2-9</option>
+        <option value="adults">10-64</option>
+        <option value="elderly">65+</option>
+      </select>
+      {{#link-to "initial-symptoms"}}<button {{action "submit"}} {{action "setup"}}>Submit</button>{{/link-to}}
     </article>
 
   </div>
-
 
 </article>

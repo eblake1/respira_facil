@@ -1,26 +1,15 @@
 <article id="result">
 
     <div class="container" >
-      <h2>Go to hospital if you are less than 2 years old or over 64.</h2>
-
-
-      <h2>Otherwise, if your score is smaller than 5, Have some antibiotics and come back in three days.</h2>
-
-      <h2>If your score is smaller than 8, have antibiotics and come back to check again in 3 days.</h2>
-
-      <h2>If your score is over 8, go to hospital.</h2>
-
+  <h2>{{score}}</h2>
   <br>
   <br>
   <br>
   <br>
 
-
-
-
-
-
-
+  {{#link-to "age" class="btn btn-secondary btn-lg" id="main_diagnose_button"}}
+    Re-Assess
+  {{/link-to}}
 
     </div>
 </article>

@@ -16,15 +16,19 @@ export default Ember.Component.extend({
       this.set('count', 0);
       console.log(this.get('count'))
     },
-    tick: function () {
-      this.set('count', parseInt(this.get('count'), 10) + 1);
-      console.log(this.get('count'))
-    },
     submit: function(){
+     // var patient_age = this.store.createRecord('age', {age: this.get('selectedOption')});
       console.log(this.get('selectedOption'))
+      //this.sendAction('pickedAge', this.get('selectedOption'));
       // code to save or sendAction
       // e.g. let selectedOption = this.get('selectedOption')
       // this.sendAction('submit', selectedOption)
+    },
+
+    functionToReturnAge: function() {
+      return this.get('selectedOption');
     }
+
+
   }
 });

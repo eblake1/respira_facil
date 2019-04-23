@@ -1,6 +1,7 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
+  positionalParams: ['initial-score'],
 
   count: 0,
   actions: {
