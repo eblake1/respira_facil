@@ -318,14 +318,14 @@ article#initial_symptoms_q input[type="radio"] {
 article#initial_symptoms_q label {
   font-family: "Palatino Linotype";
   font-size: 17px;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   margin-left: 5px;
 }
 
 article#initial_symptoms_q p {
   font-family: "Palatino Linotype";
   font-size: 17px;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   margin-left: 18px;
 }
 
@@ -417,7 +417,7 @@ article#vital_signs_q h5 {
 article#vital_signs_q label {
   font-family: "Palatino Linotype";
   font-size: 17px;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
 }
 
 article#vital_signs_q input {
@@ -429,7 +429,7 @@ article#vital_signs_q input {
 
 article#vital_signs_q span {
   font-family: "Palatino Linotype";
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 
