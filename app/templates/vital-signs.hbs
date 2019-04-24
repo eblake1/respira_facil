@@ -3,45 +3,61 @@
     <h2>Patient Vital Signs</h2>
 
 
+<article id="vital_signs_q">
     <h5>What's your heart rate?</h5>
-    {{input name="Heart rate" placeholder="Heart rate" value=heartRate}}
+    {{input name="Heart rate" placeholder="Heart rate" value=heartRate id="heartRate"}}<br>
+      <button {{action "myheartRateDidChange"}}>Save</button>
 
     <h5>What's your respiratory rate?</h5>
-    {{input name="Resp rate" placeholder="Respiratory rate" value=respRate}}
+    {{input name="Resp rate"  placeholder="Respiratory rate" value=respRate id="respRate"}}<br>
+      <button {{action "myrespRateDidChange"}}>Save</button>
 
     <h5>What's your oxygen saturation?</h5>
-    {{input name="Oxi Sat" placeholder="Oxygen saturation" value=oxiSat}}
+    {{input name="Oxi Sat" placeholder="Oxygen saturation" value=oxiSat id="oxiSat"}}<br>
+    <button {{action "myoxiSatDidChange"}}>Save</button>
 
     <h5>What's your blood pressure?</h5>
-    {{input name="Blood pressure" placeholder="Blood pressure" value=bloodPressure}}
+    {{input name="Blood pressure" placeholder="Blood pressure" value=bloodPressure id="bloodPressure"}}<br>
+    <button {{action "mybloodPressDidChange"}}>Save</button>
 
     <h5>What's your body temperature?</h5>
-    {{input name="Body temperature" placeholder="Body temperature" value=temperature}}
+    {{input name="Body temperature" placeholder="Body temperature" value=temperature id="temperature"}}<br>
+    <button {{action "mytempDidChange"}}>Save</button>
+
 
     <h5>Are you taking medication?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" name="cough" value="yes"> <label>Yes</label> &nbsp;
+    <input type="radio" name="cough" value="no"> <label>No</label>
 
     <h5>Do you have asthma?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" name="cough" value="yes"> <label>Yes</label> &nbsp;
+    <input type="radio" name="cough" value="no"> <label>No</label>
 
     <h5>Do you have any kinds of aches or pains?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" name="cough" value="yes"> <label>Yes</label> &nbsp;
+    <input type="radio" name="cough" value="no"> <label>No</label>
 
     <h5>Do you have any kinds of organ (brain, heart, lungs) dysfunctions?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" name="cough" value="yes"> <label>Yes</label> &nbsp;
+    <input type="radio" name="cough" value="no"> <label>No</label>
 
     <h5>Do you have HIV, history of lung disease, history of renal dysfunction, or history of cardiac disease?</h5>
-    <input type="radio" name="cough" value="yes"> Yes &nbsp;
-    <input type="radio" name="cough" value="no"> No
+    <input type="radio" name="cough" value="yes"> <label>Yes</label> &nbsp;
+    <input type="radio" name="cough" value="no"> <label>No</label>
 
     <br>
+    <br>
+
     {{#link-to "result" class="btn btn-secondary btn" id="button4"}}
       View Result
     {{/link-to}}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    </article>
 
   </div>
 </article>
