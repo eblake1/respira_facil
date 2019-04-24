@@ -4,7 +4,7 @@ header {
   padding: 10px;
   background-color: rgba(30,144,255,.3);
   text-align: center;
-  width: 900px;
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
 }
 
@@ -15,7 +15,7 @@ header img {
 article {
   background-color: rgba(211,211,211,0.25);
   border: 2px solid rgba(30,144,255,.5);
-  width: 900px;
+  width: 100%;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -26,7 +26,7 @@ article {
   font-family: Palatino, 'Palatino Linotype', serif;
   list-style-type: none;
   margin: 0;
-  width: 900px;
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
 }
 
@@ -55,7 +55,7 @@ article {
   padding: 10px;
   position: relative;
   top: 10px;
-  left: 200px;
+  left: 30%;
   margin-top: 10px;
   width: 200px;
   height:80px;
@@ -72,7 +72,7 @@ article {
 }
 
 article#button {
-  width: 765px;
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
   height: 625px;
@@ -203,10 +203,10 @@ article p#contact {
 /*styles for age page*/
 #select_button {
   position: relative;
-  margin-top: 10px;
-  width: 110px;
-  height:40px;
+  width: 120px;
+  height:50px;
   font-size: 25px;
+  padding: 6px;
   font-family: Palatino, 'Palatino Linotype', serif;
   color: white;
   background-color: darkgray;
@@ -249,14 +249,14 @@ article p#contact {
 }
 
 article#button2 {
-  width: 765px;
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
   height: 450px;
 }
 
 article#age {
-  height: 800px;
+  height: 100%;
 }
 
 article#age h2 {
@@ -282,7 +282,7 @@ article#age h2 {
 /*styles for patient symptoms page*/
 
 article#initial-symptoms {
-  height: 950px;
+  height: 100%;
 }
 
 article#initial-symptoms h2 {
@@ -296,10 +296,10 @@ article#initial-symptoms h2 {
 }
 
 article#initial_symptoms_q {
-  width: 765px;
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
-  height: 800px;
+  height: 2100px;
 }
 
 article#initial_symptoms_q h5 {
@@ -312,13 +312,45 @@ article#initial_symptoms_q input[type="radio"] {
   border: 0px;
   height: 1em;
   margin-left: 30px;
-
+  font-family: "Palatino Linotype";
 }
 
 article#initial_symptoms_q label {
   font-family: "Palatino Linotype";
   font-size: 17px;
   letter-spacing: .5px;
+  margin-left: 5px;
+}
+
+article#initial_symptoms_q p {
+  font-family: "Palatino Linotype";
+  font-size: 17px;
+  letter-spacing: .5px;
+  margin-left: 18px;
+}
+
+article input#heartRate {
+  margin-left: 30px;
+}
+article input#respRate {
+  margin-left: 30px;
+}
+article input#oxiSat {
+  margin-left: 30px;
+}
+article input#sysBloodPressure {
+  margin-left: 30px;
+}
+article input#diaBloodPressure {
+  margin-left: 30px;
+}
+article input#temperature {
+  margin-left: 30px;
+}
+
+article#initial_symptoms_q button {
+  margin-left: 30px;
+  font-family: "Palatino Linotype";
 }
 
 #button3 {
@@ -349,7 +381,7 @@ article#initial_symptoms_q label {
 /*styles for vital signs page*/
 
 article#vital-signs {
-  height: 1100px;
+  height: 100%;
 }
 
 article#vital-signs h2 {
@@ -366,7 +398,7 @@ article#vital_signs_q {
   width: 765px;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
-  height: 970px;
+  height: 100%;
 }
 
 article#vital_signs_q input[type="radio"] {
@@ -429,14 +461,14 @@ article#vital_signs_q span {
 
 
 /*styles for final decision page*/
-article#result1 {
-  width: 765px;
+article#result_button {
+  width: 100%;
   border: 2px solid rgba(30,144,255,.5);
   border-radius: 0.25em 0.25em 0.25em 0.25em;
   height: 450px;
 }
 
-article#result {
+article#result_button {
   height: 800px;
 }
 
@@ -453,6 +485,24 @@ article#result h2 {
 article#result h5 {
   font-family: "Palatino Linotype";
   font-size: 25px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+article#result {
+  width: 100%;
+  border: 2px solid rgba(30,144,255,.5);
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  height: 625px;
+}
+
+article#result {
+  height: 100%;
+}
+
+article#result p {
+  font-family: "Palatino Linotype";
+  font-size: 20px;
   margin-top: 20px;
   margin-left: 5px;
 }
