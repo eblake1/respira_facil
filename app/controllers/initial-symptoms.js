@@ -4,7 +4,7 @@ store: Ember.inject.service();
 export default Controller.extend({
   ageController: Ember.inject.controller('age'),
   age: Ember.computed.reads('ageController.selectedOption'),
-  count: 0,
+  count: Ember.computed.reads('ageController.count'),
   result: null,
 
 actions: {
